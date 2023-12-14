@@ -3,10 +3,6 @@ streamlit
 streamlit_chat
 seaborn
 pandas
-matplotlib.pyplot
-plotly.express
-sklearn.model_selection
-sklearn.linear_model
-sklearn.ensemble
-sklearn.tree
-sklearn.metrics
+matplotlib
+plotly
+sklearn
