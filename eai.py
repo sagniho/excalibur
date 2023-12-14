@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
-import scikit-learn
+import sklearn
 from openai import OpenAI
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
