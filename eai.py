@@ -3,7 +3,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
-import sklearn
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import mean_squared_error
 from openai import OpenAI
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
