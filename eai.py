@@ -113,7 +113,7 @@ def process_uploaded_file(uploaded_file):
 
 # Welcome Screen
 def welcome_screen():
-    logo_path = "/Users/samriddhiagnihotri/Desktop/eai.png"
+    logo_path = "eai.png"
     st.image(logo_path, use_column_width=True)
     st.markdown("""
     <h2 style='text-align: center; font-weight: bold;'> <i> Elevating Data into Intelligent Strategy </i> </h2>
